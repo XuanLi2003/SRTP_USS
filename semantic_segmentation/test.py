@@ -190,7 +190,7 @@ def main():
                                  f'eval_single_scale_{timestamp}.json')
 
     # build the dataloader
-    # TODO: support multiple images per gpu (only minor changes are needed)
+
     dataset = build_dataset(cfg.data.test)
     # The default loader config
     loader_cfg = dict(

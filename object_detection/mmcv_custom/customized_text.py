@@ -78,7 +78,7 @@ class CustomizedTextLoggerHook(TextLoggerHook):
 
         log_items = []
         for name, val in log_dict.items():
-            # TODO: resolve this hack
+
             # these items have been in log_str
             if name in [
                     'mode', 'Epoch', 'iter', 'lr', 'layer_0_lr', 'time', 'data_time',
